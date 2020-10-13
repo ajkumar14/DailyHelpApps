@@ -1,0 +1,63 @@
+.outline {
+    margin: 100px 100px 0;
+}
+
+.numrow {
+    padding: 0.25em;
+}
+
+.calculator {
+    padding: 0.25em;
+}
+
+#coutput {
+    width: 70px;
+    background-color: grey;
+}
+
+#cinput {
+    display: inline-flex;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: auto;
+}
+
+.input-group {
+    text-align: right;
+}
+
+td {
+    background-color: #ffdab9;
+    text-align: center;
+    width: 50px;
+}
+
+.btn {
+    display: table-cell;
+}
+
+.container {
+    background-color: #ccb1a4;
+    height: 650px;
+}
+
+.menu {
+    background-color: #c1f3f1;
+    height: 85%
+}
+
+.header {
+    background-color: #eef4c4;
+    height: 15%;
+    text-align: center;
+}
+
+.content {
+    background-color: #fff7f7;
+    height: 85%;
+}
+
+.row {
+    height: 100%;
+}

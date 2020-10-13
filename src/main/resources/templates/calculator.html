@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 header">
+            <h1>Welcome to Daily Help Apps</h1>
+        </div>
+        <div class="col-sm-3 menu">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../static/calculator.html">Online Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TBD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TBD 2</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-9 content">
+            <div class="outline">
+                <h2>Online Calculator</h2>
+                <p>Below is my first individual project build completely by me while learning web-development concepts
+                    and
+                    Spring boot functionality</p>
+
+                <div>
+                    <table border="1">
+                        <tr>
+                            <td colspan="4">
+                                <input id="cinput" readonly/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <input class="input-group coutput" readonly value="0"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="btn btn-outline-primary ac">AC</td>
+                            <td class="btn btn-outline-primary opr">/</td>
+                            <td class="btn btn-outline-primary opr">x</td>
+                            <td class="btn btn-outline-primary opr">%</td>
+                        </tr>
+                        <tr>
+                            <td class="btn btn-outline-secondary cnum">7</td>
+                            <td class="btn btn-outline-secondary cnum">8</td>
+                            <td class="btn btn-outline-secondary cnum">9</td>
+                            <td class="btn btn-outline-primary opr">-</td>
+                        </tr>
+                        <tr>
+                            <td class="btn btn-outline-secondary cnum">4</td>
+                            <td class="btn btn-outline-secondary cnum">5</td>
+                            <td class="btn btn-outline-secondary cnum">6</td>
+                            <td class="btn btn-outline-primary opr">+</td>
+                        </tr>
+                        <tr>
+                            <td class="btn btn-outline-secondary cnum">1</td>
+                            <td class="btn btn-outline-secondary cnum">2</td>
+                            <td class="btn btn-outline-secondary cnum">3</td>
+                            <td rowspan="2" class="btn btn-outline-primary eql">=</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="btn btn-outline-secondary cnum">0</td>
+                            <td class="btn btn-outline-secondary cnum">.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>

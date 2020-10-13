@@ -1,0 +1,53 @@
+.container {
+    background-color: #ccb1a4;
+    height: 650px;
+}
+
+.menu {
+    background-color: #c1f3f1;
+    height: 85%
+}
+
+.header {
+    background-color: #eef4c4;
+    height: 15%;
+    text-align: center;
+}
+
+.content {
+    background-color: #fff7f7;
+    height: 85%;
+}
+
+.row {
+    height: 100%;
+}
+
+.intro {
+    font-family: "Lucida Console", Courier, monospace;
+    margin-top: 2em;
+}
+
+.messageBody {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+img {
+    width: 98%;
+    height: 60%
+}
+
+.quoteHeader {
+    font-weight: bold;
+}
+
+.quote {
+    font-family: "Merriweather", "Georgia", serif;
+}
+
+.quoteAuthor {
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: bold;
+    color: #333;
+}
