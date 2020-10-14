@@ -51,3 +51,7 @@ img {
     font-weight: bold;
     color: #333;
 }
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
